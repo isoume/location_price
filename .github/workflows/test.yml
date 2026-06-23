@@ -9,9 +9,9 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     - name: Checkout repository
-       uses: actions/checkout@v4
+      uses: actions/checkout@v4
     - name: Hello CI/CID
-       run: |
+      run: |
          echo "===== Hello I am testing CI/CD====="
     - name: Show Docker images
-       run: docker images
+      run: docker images
