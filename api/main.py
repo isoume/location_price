@@ -14,3 +14,9 @@ def read_root():
    return {
        "message": "hello Routers"
    }
+
+@app.get("/collabo")
+def read_root():
+   return {
+       "message": "hello Routers"
+   }
